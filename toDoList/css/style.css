@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.kundalik {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px auto;
+  margin-bottom: 20px;
+}
+
+.kundalik__item {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.kundalik__item button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 0px 5px 5px 0px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-size: 16px;
+}
+
+.kundalik__item button:hover {
+  background-color: aqua;
+}
+
+.kundalik__item input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 18px;
+}
+
+.safe {
+  width: 65%;
+  margin: auto;
+}
+
+.safe ol li {
+  position: relative;
+  margin: 10px;
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 8px black;
+          box-shadow: 3px 3px 8px black;
+  color: #1c09c5;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.safe ol li img {
+  position: absolute;
+  top: 25%;
+  right: 8px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.safe ol {
+  background-color: orange;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.title-active {
+  display: none;
+}
+
+.time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3px 20px;
+}
+
+.time span {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

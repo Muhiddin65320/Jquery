@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <div class="score">
+        <h1>Score: <span class="score__value">0</span></h1>
+    </div>
+    <div class="game">
+        <div class="game__snake game__snake_real">
+            <div class="game__snake_head ">
+                <div class="game__snake_eye">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="game__snake_star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="game__snake_til"></div>
+                <div class="game__snake_dum"></div>
+            </div>
+        </div>
+        <div class="game__snake game__snake_noReal">
+            <div class="game__snake_head ">
+                <div class="game__snake_eye">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="game__snake_star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="game__snake_til"></div>
+                <div class="game__snake_dum"></div>
+            </div>
+        </div>
+        <div class="ball">
+            <div class="ball__item">1</div>
+            <div class="ball__item">2</div>
+            <div class="ball__item">3</div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal__item">
+            <i class="fas fa-window-close"></i>
+            <div class="modal__content"><h1>Game Over</h1>
+             <span class="score__value">000</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
